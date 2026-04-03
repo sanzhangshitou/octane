@@ -1,6 +1,29 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/octane/compare/v2.13.5...2.x)
+## [Unreleased](https://github.com/laravel/octane/compare/v2.17.1...2.x)
+
+## [v2.17.1](https://github.com/laravel/octane/compare/v2.17.0...v2.17.1) - 2026-03-18
+
+* Fix laravel Octane Store by [@kamil-michalak](https://github.com/kamil-michalak) in https://github.com/laravel/octane/pull/1106
+
+## [v2.17.0](https://github.com/laravel/octane/compare/v2.16.0...v2.17.0) - 2026-03-18
+
+* Support PHPUnit 13 and fix Laravel Passport compatibility conflicts by [@Nationalcat](https://github.com/Nationalcat) in https://github.com/laravel/octane/pull/1103
+
+## [v2.16.0](https://github.com/laravel/octane/compare/v2.15.0...v2.16.0) - 2026-03-17
+
+* [2.x] PHP 8.5 Compatibility by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/octane/pull/1080
+* [2.x] Supports Laravel 13 by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/octane/pull/1093
+
+## [v2.15.0](https://github.com/laravel/octane/compare/v2.14.0...v2.15.0) - 2026-03-10
+
+* Add Boost guidelines for Octane dependency injection by [@pushpak1300](https://github.com/pushpak1300) in https://github.com/laravel/octane/pull/1099
+* Fix Swoole auto worker count in containers by [@mtawil](https://github.com/mtawil) in https://github.com/laravel/octane/pull/1101
+
+## [v2.14.0](https://github.com/laravel/octane/compare/v2.13.5...v2.14.0) - 2026-02-20
+
+* Allow to use more environment variables to FrankenPHP/Caddyfile #895 by [@taai](https://github.com/taai) in https://github.com/laravel/octane/pull/1095
+* Format Caddyfile stub by [@davidkvasnovsky](https://github.com/davidkvasnovsky) in https://github.com/laravel/octane/pull/1096
 
 ## [v2.13.5](https://github.com/laravel/octane/compare/v2.13.4...v2.13.5) - 2026-01-22
 
