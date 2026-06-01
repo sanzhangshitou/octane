@@ -1,6 +1,18 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/octane/compare/v2.17.1...2.x)
+## [Unreleased](https://github.com/laravel/octane/compare/v2.17.4...2.x)
+
+## [v2.17.4](https://github.com/laravel/octane/compare/v2.17.3...v2.17.4) - 2026-05-22
+
+* Skip full compiled route iteration in router listener by [@faytekin](https://github.com/faytekin) in https://github.com/laravel/octane/pull/1126
+
+## [v2.17.3](https://github.com/laravel/octane/compare/v2.17.2...v2.17.3) - 2026-04-23
+
+* Refresh Router Containers for Compiled Routes by [@dbpolito](https://github.com/dbpolito) in https://github.com/laravel/octane/pull/1121
+
+## [v2.17.2](https://github.com/laravel/octane/compare/v2.17.1...v2.17.2) - 2026-04-16
+
+* [2.x] Improves CI / tests against L13 by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/octane/pull/1107
 
 ## [v2.17.1](https://github.com/laravel/octane/compare/v2.17.0...v2.17.1) - 2026-03-18
 
