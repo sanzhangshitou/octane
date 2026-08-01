@@ -1,6 +1,27 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/octane/compare/v2.17.4...2.x)
+## [Unreleased](https://github.com/laravel/octane/compare/v2.18.0...2.x)
+
+## [v2.18.0](https://github.com/laravel/octane/compare/v2.17.5...v2.18.0) - 2026-07-21
+
+* Bump shivammathur/setup-php from 2.37.1 to 2.37.2 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/laravel/octane/pull/1145
+* Bump actions/checkout from 6.0.3 to 7.0.0 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/laravel/octane/pull/1146
+* Add state_file config option with env() override by [@serpentblade](https://github.com/serpentblade) in https://github.com/laravel/octane/pull/1147
+* Update the existing OCTANE_SERVER value on install by [@lazerg](https://github.com/lazerg) in https://github.com/laravel/octane/pull/1148
+* fix: prevent malformed multipart request from crashing the frankenphp worker by [@lazerg](https://github.com/lazerg) in https://github.com/laravel/octane/pull/1152
+* Fix formatting in Caddyfile stub by [@michaelr0](https://github.com/michaelr0) in https://github.com/laravel/octane/pull/1153
+
+## [v2.17.5](https://github.com/laravel/octane/compare/v2.17.4...v2.17.5) - 2026-06-04
+
+* fix: prevent frankenphp-worker from spitting html into stdout by [@Carnicero90](https://github.com/Carnicero90) in https://github.com/laravel/octane/pull/1127
+* Enhance Boost guidelines with comprehensive Octane AI context by [@rupeshstha](https://github.com/rupeshstha) in https://github.com/laravel/octane/pull/1122
+* GitHub Actions hardening by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/octane/pull/1131
+* Bump actions/checkout from 4.3.1 to 6.0.3 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/laravel/octane/pull/1132
+* [2.x] Fix Symfony 8.1 compatibility for Swoole by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/octane/pull/1134
+* Pin pull requests and issues workflows to least-privilege reusable workflows by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/octane/pull/1136
+* Pin pull requests and issues workflows to latest laravel/.github by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/octane/pull/1137
+* Add Dependabot cooldown of 5 days by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/octane/pull/1138
+* Enable Dependabot auto-merge by [@nunomaduro](https://github.com/nunomaduro) in https://github.com/laravel/octane/pull/1139
 
 ## [v2.17.4](https://github.com/laravel/octane/compare/v2.17.3...v2.17.4) - 2026-05-22
 
