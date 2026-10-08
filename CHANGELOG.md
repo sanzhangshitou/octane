@@ -1,6 +1,25 @@
 # Release Notes
 
-## [Unreleased](https://github.com/laravel/octane/compare/v2.18.0...2.x)
+## [Unreleased](https://github.com/laravel/octane/compare/v2.21.0...2.x)
+
+## [v2.21.0](https://github.com/laravel/octane/compare/v2.20.0...v2.21.0) - 2026-10-05
+
+* [2.x] Fix redaction of authorization query parameter in FrankenPHP access logs by [@m0nclous](https://github.com/m0nclous) in https://github.com/laravel/octane/pull/1167
+* [2.x] Flush once() cache when preparing for the next operation by [@cristiangirlea](https://github.com/cristiangirlea) in https://github.com/laravel/octane/pull/1169
+* Fix stopServer() when a signal arrives before the input is bound by [@jasparsteenman](https://github.com/jasparsteenman) in https://github.com/laravel/octane/pull/1170
+
+## [v2.20.0](https://github.com/laravel/octane/compare/v2.19.1...v2.20.0) - 2026-08-23
+
+* Make RoadRunner worker command configurable and absolute-path safe by [@wakqasahmed](https://github.com/wakqasahmed) in https://github.com/laravel/octane/pull/1162
+
+## [v2.19.1](https://github.com/laravel/octane/compare/v2.19.0...v2.19.1) - 2026-08-13
+
+* Cast `$managerProcessId` to integer within Swoole's `ServerProcessInspector::stopServer()` by [@crynobone](https://github.com/crynobone) in https://github.com/laravel/octane/pull/1158
+
+## [v2.19.0](https://github.com/laravel/octane/compare/v2.18.0...v2.19.0) - 2026-08-05
+
+* Bump actions/checkout from 7.0.0 to 7.0.1 in the github-actions group by [@dependabot](https://github.com/dependabot)[bot] in https://github.com/laravel/octane/pull/1154
+* Override "server" `artisan dev` command by [@joetannenbaum](https://github.com/joetannenbaum) in https://github.com/laravel/octane/pull/1156
 
 ## [v2.18.0](https://github.com/laravel/octane/compare/v2.17.5...v2.18.0) - 2026-07-21
 
